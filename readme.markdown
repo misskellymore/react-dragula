@@ -74,14 +74,14 @@ export class App extends React.Component {
       <div>Swap things around</div>
       <div>Swap everything around</div>
     </div>;
-  },
+  }
   dragulaDecorator = (componentBackingInstance) => {
     if (componentBackingInstance) {
       let options = { };
       Dragula([componentBackingInstance], options);
     }
   };
-});
+};
 ReactDOM.render(<App />, document.getElementById('examples'));
 ```
 
